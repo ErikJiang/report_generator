@@ -4,10 +4,9 @@ import axios from 'axios'
 import App from './App'
 import router from './router'
 import store from './store'
-import 'vue-easytable/libs/themes-base/index.css';
-import { VTable } from 'vue-easytable';
+import VueEditable from './plugins/vueEditable';
 
-Vue.component(VTable.name, VTable);
+Vue.use(VueEditable);
 
 if (!process.env.IS_WEB) Vue.use(require('vue-electron'))
 Vue.http = Vue.prototype.$http = axios
