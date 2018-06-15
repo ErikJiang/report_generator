@@ -40,6 +40,61 @@
       </tr>
     </table>
 
+    <br>
+    <hr>
+    <br>
+
+    <table>
+      <tbody>
+        <tr>
+          <td rowspan="2">中铁宝鸡轨道电气设备检测有限公司</td>
+          <td rowspan="2">检验报告</td>
+          <td colspan="2">№.2018（浦东机场）-03-1</td>
+        </tr>
+        <tr>
+          <td colspan="2">共2页  第1页</td>
+        </tr>
+        <tr>
+          <td>工程名称</td>
+          <td colspan="3">上海浦东国际机场旅客捷运系统工程</td>
+        </tr>
+        <tr>
+          <td>委托单位</td>
+          <td>中铁四局上海浦东机场三期扩建工程捷运系统铺轨、供电及接触轨、通信、信号、系统项目经理部</td>
+          <td>联系人/电话</td>
+          <td>何立峥 18656676477</td>
+        </tr>
+        <tr>
+          <td>联系地址</td>
+          <td>上海市浦东新区祝桥镇围场河路</td>
+          <td>检验类别</td>
+          <td>抽查检验</td>
+        </tr>
+        <tr>
+          <td>生产单位</td>
+          <td>上海康驰建筑技术有限公司</td>
+          <td>联系人/电话</td>
+          <td>张鑫 18616303505</td>
+        </tr>
+        <tr>
+          <td rowspan="2">样品名称、型号规格、数量</td>
+          <td rowspan="2">后扩底锚栓、KUA22×100 M16/80、9套</td>
+          <td>样品标识</td>
+          <td>/</td>
+        </tr>
+        <tr>
+          <td>抽样人</td>
+          <td>王展翔</td>
+        </tr>
+
+      </tbody>
+      
+    </table>
+
+    <br>
+    <hr>
+    <br>
+
 
     <button class="alt" @click="backHome()">返回首页</button>
   </div>
@@ -88,5 +143,9 @@ body {
   height: 100vh;
   padding: 60px 80px;
   width: 100vw;
+}
+
+table, th, td {
+  border: 1px solid black;
 }
 </style>
