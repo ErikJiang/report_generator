@@ -1,30 +1,28 @@
 <template>
   <div id="wrapper">
-    <img id="logo" src="~@/assets/logo.png" alt="electron-vue">
+    <img id="logo" src="~@/assets/logo.jpeg" alt="electron-vue">
     <main>
       <div class="left-side">
         <span class="title">
-          Welcome to your new project!
+          Welcome to the New World!
         </span>
         <system-information></system-information>
       </div>
 
       <div class="right-side">
         <div class="doc">
-          <div class="title">Getting Started</div>
+          <div class="title">King and Cross</div>
           <p>
-            electron-vue comes packed with detailed documentation that covers everything from
-            internal configurations, using the project structure, building your application,
-            and so much more.
+            Glistening nighttime dew and she is walking with me. 
+            From the house of red I hear a child crying. 
+            Foxes heading home their prey hangs from their jaws. 
+            And the forest knows but it won’t share the secret. 
+            When the king takes sides, 
+            Leaving moral minds soldiers take their share. 
           </p>
-          <button @click="open('https://simulatedgreg.gitbooks.io/electron-vue/content/')">Read the Docs</button><br><br>
+          <button @click="openReport()"><i class="el-icon-edit"></i> 编辑报告</button><br><br>
         </div>
-        <div class="doc">
-          <div class="title alt">Other Documentation</div>
-          <button class="alt" @click="open('https://electron.atom.io/docs/')">Electron</button>
-          <button class="alt" @click="open('https://vuejs.org/v2/guide/')">Vue.js</button>
-          <button class="alt" @click="openReport()">编辑报告</button>
-        </div>
+        
       </div>
     </main>
   </div>
@@ -37,9 +35,6 @@
     name: 'landing-page',
     components: { SystemInformation },
     methods: {
-      open (link) {
-        this.$electron.shell.openExternal(link)
-      },
       openReport() {
         this.$router.push({path: 'report'});
       }
@@ -73,7 +68,7 @@
   #logo {
     height: auto;
     margin-bottom: 20px;
-    width: 420px;
+    width: 200px;
   }
 
   main {
