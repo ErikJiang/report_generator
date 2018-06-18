@@ -1,7 +1,7 @@
 # report_generator
 
 ![一定要骚！](./main.jpeg)
-> 这是一个略微骚的项目 . . .
+> 这个项目有点骚，当心闪到腰 . . .
 
 #### Build Setup
 
