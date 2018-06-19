@@ -1,6 +1,6 @@
 # report_generator
 
-![一定要骚！](./main.jpeg)
+![一定要骚！](./src/renderer/assets/logo.jpeg)
 > 这个项目有点骚，当心闪到腰 . . .
 
 #### Build Setup

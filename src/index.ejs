@@ -12,15 +12,16 @@
   </head>
   <body>
     <div id="app"></div>
+
+    <script>window.$ = window.jQuery = require('jquery');</script>
+    <script src="../node_modules/file-saver/FileSaver.min.js"></script>
+    <script src="../src/renderer/plugins/jquery.word.export.js"></script>
+
     <!-- Set `__static` path to static files in production -->
     <script>
       if (process.env.NODE_ENV !== 'development') window.__static = require('path').join(__dirname, '/static').replace(/\\/g, '\\\\')
     </script>
 
     <!-- webpack builds are automatically injected -->
-    <script>window.$ = window.jQuery = require('jquery');</script>
-    <script src="../node_modules/file-saver/FileSaver.min.js"></script>
-    <script src="../src/renderer/plugins/jquery.word.export.js"></script>
-
   </body>
 </html>

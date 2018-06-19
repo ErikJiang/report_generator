@@ -1,4 +1,5 @@
 <template>
+
   <el-container>
     <el-header>
       <el-menu class="menu" mode="horizontal">
@@ -216,8 +217,6 @@
 
   </el-container>  
 
-
-
 </template>
 
 <script>
@@ -267,24 +266,6 @@ body {
   font-family: "Source Sans Pro", sans-serif;
 }
 
-.el-header {
-  float: left;
-  position: relative;
-  left: 50%;
-}
-.el-header ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  position: relative;
-  left: -50%;
-}
-.el-header li {
-  float: left;
-  display: inline;
-  margin-right: 8px;
-}
-
 #wrapper {
   background: radial-gradient(
     ellipse at top left,
@@ -292,7 +273,7 @@ body {
     rgba(229, 229, 229, 0.9) 100%
   );
   height: 100%;
-  padding: 10px 80px;
+  padding: 10px 40px;
   width: 100%;
 }
 
